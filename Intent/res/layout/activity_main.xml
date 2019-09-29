@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/homeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="返回Home界面" />
+
+    <Button
+        android:id="@+id/urlBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/homeBtn"
+        android:layout_below="@+id/homeBtn"
+        android:text="浏览网址" />
+
+    <Button
+        android:id="@+id/secondActivityBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/homeBtn"
+        android:layout_below="@+id/openCameraBtn"
+        android:text="跳转至第二个Activity" />
+
+    <Button
+        android:id="@+id/sendSmsBtm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/homeBtn"
+        android:layout_below="@+id/urlBtn"
+        android:text="发送短信" />
+
+    <Button
+        android:id="@+id/dialViewBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/homeBtn"
+        android:layout_below="@+id/sendSmsBtm"
+        android:text="显示打电话界面" />
+
+    <Button
+        android:id="@+id/dialBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/homeBtn"
+        android:layout_below="@+id/dialViewBtn"
+        android:text="直接拨打电话" />
+
+    <Button
+        android:id="@+id/openCameraBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/homeBtn"
+        android:layout_below="@+id/dialBtn"
+        android:text="打开照相机" />
+
+</RelativeLayout>
