@@ -59,7 +59,7 @@ public class MainActivity extends Activity {
 				Intent intent=new Intent();
 				intent.setAction(Intent.ACTION_SENDTO);
 				intent.addCategory("android.intent.category.DEFAULT");
-				intent.setData(Uri.parse("smsto:10086"));
+				intent.setData(Uri.parse("smsto:17666415927"));
 				intent.putExtra("sms_body", "土豪我们做朋友吧");
 				startActivity(intent);
 			}
@@ -71,7 +71,7 @@ public class MainActivity extends Activity {
 			public void onClick(View arg0) {
 				Intent intent=new Intent();
 				intent.setAction(intent.ACTION_DIAL);
-    			intent.setData(Uri.parse("tel:13800000000"));
+    			intent.setData(Uri.parse("tel:17666415927"));
 				startActivity(intent);
 			}
 		});
@@ -82,7 +82,7 @@ public class MainActivity extends Activity {
 			public void onClick(View arg0) {
 				Intent intent=new Intent();
 				intent.setAction(intent.ACTION_CALL);
-    			intent.setData(Uri.parse("tel:13800000000"));
+    			intent.setData(Uri.parse("tel:17666415927"));
 				startActivity(intent);
 			}
 		});
